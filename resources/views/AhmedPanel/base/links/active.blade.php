@@ -1,0 +1,1 @@
+<a href="{{url($redirect.'/'.$object->id.'/activation')}}" data-toggle="tooltip" data-placement="bottom" title=" {{($object->active)? __('dashboard.activation.do_in_active') : __('dashboard.activation.do_active')}}" class="fs-20"><i class="fa {{($object->active)? 'fa-window-close' : 'fa fa-check-square'}}"></i></a>

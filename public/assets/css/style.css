@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Cairo);
+
+body{
+    font-family: Cairo !important;
+}
+nav{
+    background-color: #0075ba !important;
+}
+.font-28{
+    font-size: 28px;
+}
+.font-20{
+    font-size: 20px;
+}
+.white{
+    color: white;
+}
+section{
+    border: 1px dotted #3b3b3b;
+}
+.blue{
+    color: #0075ba;
+}
+.font-14{
+    font-size: 12px;
+}
+.semester{
+    background-color: lightgray;
+    border-radius: 25px;
+}
+.underline{
+    text-decoration: underline;
+}
+.app_title{
+    background-color: #0075ba;
+}
+.border_bottom{
+    border-bottom: 1px dashed lightgray;
+}
+input[type=text], select, input[type=date]{
+    display: inline !important;
+    width: 150px;
+}
+select{
+    width: 150px !important;
+}
+textarea{
+    width: 500px;
+    height: 200px;
+}
+@media screen and (max-width: 370px){
+    .semester{
+        display: block;
+        width: max-content;
+    }
+}
+@media screen and (max-width: 500px){
+    .web_title{
+        font-size: 12px;
+    }
+    textarea{
+        width: 250px !important;
+        height: 150px !important;
+    }
+}
+@media screen and (max-width: 768px){
+    input[type=text], select, input[type=date]{
+        width: 100% !important;
+    }
+    textarea{
+        width: 400px;
+        height: 200px;
+    }
+}
+@media print {
+    body{
+        padding: 50px;
+    }
+    .no-print{
+        display: none !important;
+    }
+}
